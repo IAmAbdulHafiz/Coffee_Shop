@@ -1,0 +1,44 @@
+/* Reset some default browser styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Top bar */
+.top-bar{
+    background-color: #FFA500;
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-location{
+   color: #002060;
+   display: flex;
+   gap: 2rem;
+   font-weight: bold;
+   font-size: 1.2rem;
+}
+
+.signin-social{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.signin-signup{
+    display: flex;
+    gap: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.signin-signup a{
+    color: #002060;
+    text-decoration: none;
+}
+
+.signin-signup a:hover{
+    color: #fff;
+}
