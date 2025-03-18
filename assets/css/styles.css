@@ -27,18 +27,98 @@
     gap: 3rem;
 }
 
-.signin-signup{
+.login-signup{
     display: flex;
     gap: 1.5rem;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.signin-signup a{
+.login-signup a{
     color: #002060;
     text-decoration: none;
 }
 
-.signin-signup a:hover{
+.login-signup a:hover{
     color: #fff;
+}
+
+.social-media{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media a{
+    color: #002060;
+    text-decoration: none;
+}
+
+.social-media a:hover{
+    color: #fff;
+}
+
+.navbar{
+    background-color: #002060;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+
+.logo h1{
+    color:#fff;
+}
+
+.menu{
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-item{
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background-color: #FFA500;
+    color: #002060;
+}
+
+
+/* Footer styles */
+.footer{
+    background-color: #002060;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+}
+
+.footer p{
+    font-size: 1.2rem;
+    margin: 0;
 }
